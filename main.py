@@ -37,7 +37,6 @@ while running:
     for event in paygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-        if event.type == pygame.MOUSEBUTTONDOWN:
             mouse_x, mouse_y = pygame.get_pos()
             if target_x < mouse_x < target_x + target_widht and target_y < mouse_y < target_y + target_hight:
                 target_x = random.randint(0, SCREEN_WIGHT - target_wight)
