@@ -10,7 +10,7 @@ paygame.displey.set_caption("ИГРА ТИР")
 <<<<<<< Updated upstream
 icon = paygame.image.load("img/archer.jpg")
 =======
-icon = paygame.image.load("img/strelok.jpg")
+icon = paygame.image.load("img/archer.jpg")
 >>>>>>> Stashed changes
 paygame.displey.set_icon(icon)
 
